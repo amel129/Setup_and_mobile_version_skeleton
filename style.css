@@ -1,12 +1,17 @@
 body {
+  width: 375px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
 }
 
 .toolbar {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 #img1 {
@@ -16,44 +21,55 @@ body {
 .ic_icon {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  margin-bottom: 0;
+  
 }
 
 #btn {
-  justify-content: space-between;
+  background-color: aqua;
   border-radius: 8%;
   background: #1a2236;
   border: none;
   width: 20px;
+  height: 2px;
+  margin-top: 5px;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 0;
+  
 }
 
 .group48 {
   display: flex;
   flex-direction: column;
+  margin: 0px 30px 15px 15px;
+
 }
 
 #title {
+  width: 220px;
+  height: 100px;
   font-family: 'Playfair Displa', sans-serif; /* Playfair Displa; */
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
-  letter-spacing: 0;
+  margin-top: 0;
+  padding: 0;
+  /*letter-spacing: 0;*/
   text-align: left;
 }
 
 #text {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 21px;
   letter-spacing: -0.01em;
   text-align: left;
+
 }
 
 #group19 {
@@ -67,5 +83,4 @@ body {
   background: #1a2236;
   flex-grow: 1;
   height: 50px;
-  margin-bottom: 30px;
 }
