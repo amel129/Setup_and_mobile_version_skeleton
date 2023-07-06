@@ -1,57 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
+ 
 }
-
 #img1 {
   justify-content: flex-start;
 }
-
 .ic_icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 0;
-  padding: 8%;
+  
 }
-
 #btn {
   justify-content: space-between;
   border-radius: 8%;
   background: #1a2236;
+  border: none;
+  width: 20px;
 }
+
 
 .headline {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .group48 {
   display: flex;
   flex-direction: column;
 }
-
 #title {
-  font-family: 'Courier New', Courier, monospace; /* Playfair Displa; */
+  font-family:Playfair Displa; /* Playfair Displa; */
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 0;
   text-align: left;
 }
-
 #text {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: -0.01em;
   text-align: left;
 }
-
 #group19 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Poppins;
+  color: white;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -59,4 +62,6 @@
   text-align: center;
   background: #1a2236;
   flex-grow: 1;
+  height: 50px;
+  margin-bottom: 30px;
 }
