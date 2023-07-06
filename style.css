@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,17 +7,18 @@ body{
 .toolbar {
   display: flex;
   justify-content: space-between;
- 
 }
+
 #img1 {
   justify-content: flex-start;
 }
+
 .ic_icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
+
 #btn {
   justify-content: space-between;
   border-radius: 8%;
@@ -26,34 +27,37 @@ body{
   width: 20px;
 }
 
-
 .headline {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .group48 {
   display: flex;
   flex-direction: column;
 }
+
 #title {
-  font-family:Playfair Displa; /* Playfair Displa; */
+  font-family: 'Playfair Displa', sans-serif; /* Playfair Displa; */
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 0;
   text-align: left;
 }
+
 #text {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: -0.01em;
   text-align: left;
 }
+
 #group19 {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   color: white;
   font-size: 16px;
   font-weight: 500;
