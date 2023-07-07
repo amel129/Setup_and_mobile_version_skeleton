@@ -42,7 +42,6 @@ body {
 .group48 {
   display: flex;
   flex-direction: column;
-  
 }
 
 #title {
@@ -55,7 +54,8 @@ body {
   text-align: left;
   margin: 0 30px 15px 15px;
 }
-#titleh2{
+
+#titleh2 {
   width: 181px;
   height: 50px;
   font-family: 'Playfair Displa', sans-serif; /* Playfair Displa; */
@@ -89,33 +89,34 @@ body {
   height: 50px;
   margin: 0 30px 15px 15px;
 }
-.work{
+
+.work {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
- 
-
 }
-.subGroup{
+
+.subGroup {
   display: flex;
   flex-direction: column;
-  
 }
-#Rectangle21IG{
-  border: 0.33px solid #FFFFFF1A;
-  background: #FFFFFF1A;
-  margin: 0 0 0 0;
 
+#Rectangle21IG {
+  border: 0.33px solid #ffffff1a;
+  background: #ffffff1a;
+  margin: 0 0 0 0;
 }
-.groupInfo{
+
+.groupInfo {
   display: flex;
   flex-direction: column;
   margin: 0 0 0 0;
-  background: linear-gradient(0deg, #1A2236, #1A2236),
-linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-
+  background:
+    linear-gradient(0deg, #1a2236, #1a2236),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
 }
-#projectprojectNameName{
+
+#projectprojectNameName {
   width: 264px;
   height: 16px;
   padding-top: 20px;
@@ -123,34 +124,36 @@ linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
   font-size: 20px;
   font-weight: 300;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFFFFF;
-
+  color: #fff;
 }
-.htmlBtn{
-  display:flex;
-  
+
+.htmlBtn {
+  display: flex;
   margin: 10px 15px 15px 15px;
 }
-#htmlBtnID{
+
+#htmlBtnID {
   height: 20px;
-  background: #98DEDE;
-  font-family: Poppins;
+  background: #98dede;
+  font-family: 'Poppins', sans-serif;
   font-size: 10px;
   font-weight: 300;
   line-height: 8px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #1A2236;
+  color: #1a2236;
   border: none;
-  margin: 0px 20px 10px 20px;
+  margin: 0 20px 10px 20px;
   padding: 8px 8px 6px 8px;
 }
-h2{
+
+h2 {
   margin: 0 15px 15px 15px;
 }
-#seeProjectBtn{
+
+#seeProjectBtn {
   width: 124px;
   height: 24px;
   padding-top: 10px;
@@ -158,129 +161,138 @@ h2{
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color:#FFFFFF;
+  color: #fff;
   border: none;
-  background: linear-gradient(0deg, #1A2236, #1A2236),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));;
+  background:
+    linear-gradient(0deg, #1a2236, #1a2236),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
 }
-#seeProjectGrp{
+
+#seeProjectGrp {
   display: flex;
   justify-content: space-around;
   margin: 5px 15px 15px 15px;
   width: 178px;
   height: 44px;
-  background: linear-gradient(0deg, #1A2236, #1A2236),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));;
-  border: 1px solid #FFFFFF;
+  background:
+    linear-gradient(0deg, #1a2236, #1a2236),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  border: 1px solid #fff;
 }
-#ic_arrowID{
+
+#ic_arrowID {
   width: 24px;
   height: 24px;
   padding-top: 10px;
 }
-.About myself{
+
+.About_myself {
   display: flex;
   flex-direction: column;
   margin: 30px 15px 20px 15px;
 }
-.group1{
+
+.group1 {
   display: flex;
   flex-direction: column;
   margin: 15px 15px 15px 15px;
 }
-.groupSetMyCV{
-  
+
+.groupSetMyCV {
   height: 52px;
-  background: #1A2236;
+  background: #1a2236;
   display: flex;
   justify-content: center;
-
 }
-#getMyCVBtn{
-  font-family: Poppins;
+
+#getMyCVBtn {
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  background: #1A2236;
+  background: #1a2236;
   border: none;
-  color: #FFFFFF;
-  
-
+  color: #fff;
 }
-.langagueGroup{
+
+.langagueGroup {
   display: flex;
   width: 289px;
   height: 289px;
-  background: #1C528A;
-  padding: 35px 0 0px 50px;
+  background: #1c528a;
+  padding: 35px 0 0 50px;
   margin: 20px 15px 20px 15px;
-
 }
-.FrameworksGroup{
+
+.FrameworksGroup {
   display: flex;
   width: 289px;
   height: 289px;
-  background:#E2505C;
-  padding: 35px 0 0px 50px;
+  background: #e2505c;
+  padding: 35px 0 0 50px;
   margin: 20px 15px 20px 15px;
-
 }
-.SkillsGroup{
+
+.SkillsGroup {
   display: flex;
   width: 289px;
   height: 289px;
-  background: #FEBF52;
-  padding: 35px 0 0px 50px;
+  background: #febf52;
+  padding: 35px 0 0 50px;
   margin: 20px 15px 20px 15px;
-
-
 }
-#titleh3{
+
+#titleh3 {
   width: 116px;
   height: 30px;
   align-items: center;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 30px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFFFFF;
+  color: #fff;
 }
-.list{
-  font-family: Poppins;
+
+.list {
+  font-family: 'Poppins', sans-serif;
   justify-self: end;
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
   letter-spacing: -0.0525em;
   text-align: left;
-  color: #FFFFFF;
+  color: #fff;
 }
-#ic_languages_mob{
+
+#ic_languages_mob {
   margin: 187px 0 0 -31px;
-  }
-#ic_framework{
-  margin: 193px 0px 0px 32px;
-
 }
-#ic_skills{
+
+#ic_framework {
+  margin: 193px 0 0 32px;
+}
+
+#ic_skills {
   margin: 187px 0 0 -70px;
-
 }
-#listLanguages{
+
+#listLanguages {
   width: 178px;
   height: 135px;
 }
-#listFrameworks{
+
+#listFrameworks {
   width: 121px;
   height: 108px;
 }
-#listSkills{
+
+#listSkills {
   width: 213px;
   height: 135px;
 }
