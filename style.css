@@ -42,7 +42,7 @@ body {
 .group48 {
   display: flex;
   flex-direction: column;
-  margin: 0 30px 15px 15px;
+  
 }
 
 #title {
@@ -52,10 +52,18 @@ body {
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
-
-  /* letter-spacing: 0; */
   text-align: left;
-  margin: 15px 0;
+  margin: 0 30px 15px 15px;
+}
+#titleh2{
+  width: 181px;
+  height: 50px;
+  font-family: 'Playfair Displa', sans-serif; /* Playfair Displa; */
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  margin: 0 30px 30px 15px;
 }
 
 #text {
@@ -65,6 +73,7 @@ body {
   line-height: 21px;
   letter-spacing: -0.01em;
   text-align: left;
+  margin: 0 30px 15px 15px;
 }
 
 #group19 {
@@ -78,4 +87,200 @@ body {
   background: #1a2236;
   flex-grow: 1;
   height: 50px;
+  margin: 0 30px 15px 15px;
+}
+.work{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+ 
+
+}
+.subGroup{
+  display: flex;
+  flex-direction: column;
+  
+}
+#Rectangle21IG{
+  border: 0.33px solid #FFFFFF1A;
+  background: #FFFFFF1A;
+  margin: 0 0 0 0;
+
+}
+.groupInfo{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  background: linear-gradient(0deg, #1A2236, #1A2236),
+linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+
+}
+#projectprojectNameName{
+  width: 264px;
+  height: 16px;
+  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+.htmlBtn{
+  display:flex;
+  
+  margin: 10px 15px 15px 15px;
+}
+#htmlBtnID{
+  height: 20px;
+  background: #98DEDE;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 8px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1A2236;
+  border: none;
+  margin: 0px 20px 10px 20px;
+  padding: 8px 8px 6px 8px;
+}
+h2{
+  margin: 0 15px 15px 15px;
+}
+#seeProjectBtn{
+  width: 124px;
+  height: 24px;
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:#FFFFFF;
+  border: none;
+  background: linear-gradient(0deg, #1A2236, #1A2236),
+  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));;
+}
+#seeProjectGrp{
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 15px 15px 15px;
+  width: 178px;
+  height: 44px;
+  background: linear-gradient(0deg, #1A2236, #1A2236),
+  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));;
+  border: 1px solid #FFFFFF;
+}
+#ic_arrowID{
+  width: 24px;
+  height: 24px;
+  padding-top: 10px;
+}
+.About myself{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 15px 20px 15px;
+}
+.group1{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px 15px 15px;
+}
+.groupSetMyCV{
+  
+  height: 52px;
+  background: #1A2236;
+  display: flex;
+  justify-content: center;
+
+}
+#getMyCVBtn{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #1A2236;
+  border: none;
+  color: #FFFFFF;
+  
+
+}
+.langagueGroup{
+  display: flex;
+  width: 289px;
+  height: 289px;
+  background: #1C528A;
+  padding: 35px 0 0px 50px;
+  margin: 20px 15px 20px 15px;
+
+}
+.FrameworksGroup{
+  display: flex;
+  width: 289px;
+  height: 289px;
+  background:#E2505C;
+  padding: 35px 0 0px 50px;
+  margin: 20px 15px 20px 15px;
+
+}
+.SkillsGroup{
+  display: flex;
+  width: 289px;
+  height: 289px;
+  background: #FEBF52;
+  padding: 35px 0 0px 50px;
+  margin: 20px 15px 20px 15px;
+
+
+}
+#titleh3{
+  width: 116px;
+  height: 30px;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.list{
+  font-family: Poppins;
+  justify-self: end;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  text-align: left;
+  color: #FFFFFF;
+}
+#ic_languages_mob{
+  margin: 187px 0 0 -31px;
+  }
+#ic_framework{
+  margin: 193px 0px 0px 32px;
+
+}
+#ic_skills{
+  margin: 187px 0 0 -70px;
+
+}
+#listLanguages{
+  width: 178px;
+  height: 135px;
+}
+#listFrameworks{
+  width: 121px;
+  height: 108px;
+}
+#listSkills{
+  width: 213px;
+  height: 135px;
 }
