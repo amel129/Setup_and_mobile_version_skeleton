@@ -73,7 +73,7 @@ body {
   letter-spacing: -0.01em;
   text-align: left;
   margin: 0 30px 15px 15px;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 #group19 {
@@ -106,13 +106,11 @@ body {
 #Rectangle21IG {
   height: 186px;
   width: 325px;
-  padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
   margin-left: -5px;
   margin-bottom: -3px;
-  background: #FFFFFF1A;
-  border: 0.33px solid #FFFFFF1A;
-  
- 
+  background: #ffffff1a;
+  border: 0.33px solid #ffffff1a;
 }
 
 .groupInfo {
@@ -120,8 +118,8 @@ body {
   height: 156px;
   display: flex;
   flex-direction: column;
-  border: 0px;
-  border: 0.33px solid #FFFFFF1A;
+  border: 0;
+  border: 0.33px solid #ffffff1a;
   background:
     linear-gradient(0deg, #1a2236, #1a2236),
     linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
@@ -142,38 +140,34 @@ body {
 .htmlBtn {
   display: flex;
   justify-content: space-evenly;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 7px;
   font-weight: 300;
   line-height: 8px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  
-
- 
 }
 
 #htmlBtnHTML {
-  width: 71x;
+  width: 71px;
   height: 20px;
-  background: #98DEDE;
-
+  background: #98dede;
   border: none;
-
 }
+
 #htmlBtnRuby {
   width: 100px;
   height: 20px;
-  background: #98DEDE;
+  background: #98dede;
   border: none;
 }
+
 #htmlBtnJS {
   width: 74px;
   height: 20px;
   border: none;
-  background: #98DEDE;
+  background: #98dede;
 }
-
 
 #seeProjectBtn {
   width: 124px;
@@ -209,7 +203,6 @@ body {
 #ic_arrowID {
   width: 24px;
   height: 24px;
-  
 }
 
 .About_myself {
@@ -248,12 +241,14 @@ body {
   color: #fff;
   margin-right: 6px;
 }
-.models{
+
+.models {
   display: flex;
   flex-direction: column;
   padding-inline-start: -40px;
   font-weight: bold;
 }
+
 .langagueGroup {
   display: flex;
   flex-direction: column;
@@ -263,7 +258,6 @@ body {
   padding-top: 30px;
   margin-bottom: 15px;
   background: #1c528a;
- 
 }
 
 .FrameworksGroup {
@@ -311,28 +305,29 @@ body {
   text-align: left;
   color: #fff;
   padding-inline-start: 18px;
-
 }
 
 #ic_languages_mob {
   width: 102px;
   height: 102px;
   margin-top: -78px;
-  margin-left: 186px
+  margin-left: 186px;
 }
 
 #ic_framework {
   width: 102px;
   height: 102px;
   margin-top: -78px;
-  margin-left: 186px
+  margin-left: 186px;
 }
 
 #ic_skills {
   width: 102px;
   height: 102px;
   margin-top: -78px;
-  margin-left: 186px}
+  margin-left: 186px;
+}
+
 /*
 #listLanguages {
   width: 178px;
