@@ -344,3 +344,135 @@ body {
   height: 135px;
 }
 */
+.getStart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #F9F9FA;
+}
+.getStartImg{
+  float: inline-start;
+  margin-left: -15px;
+  width: 111px;
+  height: 74.01807403564453px;
+}
+#h2hetstart{
+  Width :249px;
+  Height :50px;
+  align-items: center;
+  font-family: 'Playfair Display',sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1A2236;
+  margin-left: 15px;
+}
+.getStartTXT{
+  width: 288px;
+  height: 63px;
+  font-family: 'Poppins',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-left: 15px;
+  color: #1A2236;
+}
+.p_input{
+  Width:70px;
+  Height: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+  color: #7D7C84;
+}
+#name{
+  width: 288px;
+  height: 52px;
+  border-radius: 4px;
+  margin-left: 15px;
+  border: solid 1px;
+  border-color: #DFDFE0;
+  background-color: #fff;
+  font-family: 'Poppins',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#1A2236;
+  padding-left: 20px;
+}
+#email{
+  width: 288px;
+  height: 52px;
+  border-radius: 4px;
+  border:solid 1px;
+  border-color: #1A2236;
+  background-color: #fff;
+  margin-left: 15px;
+  padding-left: 20px;
+}
+#message{
+  width: 288px;
+  height: 112px;
+  padding-left: 20px;
+  border-radius: 4px;
+  border: solid 1px;
+  border-color: #DFDFE0;
+  background-color: #fff;
+  margin-left: 15px;
+}
+#getStartbtn{
+  width: 298px;
+  height: 44px;
+  background: #1A2236;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: none;
+}
+.resume{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 318px;
+  height: 137px;
+  background-color: #1A2236;
+}
+.resumebtn{
+  background-color: #1A2236;
+  color: #92DCDC;
+  margin-top: -20px;
+  margin-bottom: 35px;
+  align-self: center;
+  font-family: 'Poppins' sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  width:164px;
+  Height :24px;
+}
+.resumeImg{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  margin-left: 15px;
+}
