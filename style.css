@@ -1,12 +1,17 @@
 body {
-  width: 375px;
+
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+
 }
 
+#btnHello{
+  font-display: calc();
+}
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -327,23 +332,6 @@ body {
   margin-top: -78px;
   margin-left: 186px;
 }
-
-/*
-#listLanguages {
-  width: 178px;
-  height: 135px;
-}
-
-#listFrameworks {
-  width: 121px;
-  height: 108px;
-}
-
-#listSkills {
-  width: 213px;
-  height: 135px;
-}
-*/
 .getStart {
   display: flex;
   flex-direction: column;
@@ -394,7 +382,7 @@ body {
   line-height: 15px;
   letter-spacing: 0;
   text-align: left;
-  margin-left: 15px;
+  margin :20px 30px 20px 15px ;
   color: #7d7c84;
 }
 
@@ -460,7 +448,7 @@ body {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  width: 318px;
+  width: 338px;
   height: 137px;
   background-color: #1a2236;
 }
